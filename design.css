@@ -1,0 +1,131 @@
+html, body, p, h1, h2, form, table, tr, th, td, ul, li {
+	margin: 0;
+	padding: 0;
+	border: none;
+}
+
+
+/* fonts */
+
+* {
+	font-family: 'Segoe UI', 'Liberation Sans', 'Trebuchet MS', 'Geneva CE', lucida, sans-serif;
+}
+
+textarea {
+	font-family: 'Source Code Pro', 'DejaVu Sans Mono', 'Liberation Mono', Consolas, 'Lucida Console', 'Monaco CE', fixed, monospace;
+}
+
+
+/* basic layout */
+
+html {
+	background: #fafafa;
+	color: #222;
+	font-size: 90%;
+}
+
+body {
+	margin: 30px;
+}
+
+
+/* header */
+
+h1 {
+	margin-bottom: 20px;
+	font-size: 160%;
+}
+
+
+/* content */
+
+h2 {
+	margin-bottom: 20px;
+	font-size: 130%;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+ul {
+	margin-bottom: 20px;
+	list-style: none;
+}
+ul li {
+	display: inline;
+	margin-right: 20px;
+	line-height: 170%;
+	white-space: nowrap;
+}
+
+table {
+	margin-bottom: 20px;
+	border-collapse: collapse;
+	border: 2px solid #456;
+}
+thead, tbody {
+	border: 2px solid #456;
+}
+th, td {
+	padding: 3px 10px;
+}
+th {
+	background: #c6c6c6;
+	font-weight: normal;
+	text-align: left;
+}
+td {
+	background: #f2f2f2;
+}
+tr.even td {
+	background: #e6e6e6;
+}
+tr:hover td {
+	background: #ccc;
+}
+
+label {
+	font-weight: bold;
+	cursor: pointer;
+}
+
+input {
+	vertical-align: middle;
+}
+label input {
+	cursor: pointer;
+}
+
+textarea {
+	width: 96%;
+	margin-bottom: 10px;
+	padding: 7px 10px;
+	border: 2px solid #456;
+	background: #def;
+	color: #222;
+	font-size: 100%;
+}
+
+
+/* footer */
+
+#footer {
+	color: #666;
+	font-size: 90%;
+}
+
+
+/* common styles */
+
+a {
+	margin: 0 -3px;
+	padding: 2px 3px;
+	color: #456;
+	text-decoration: underline;
+}
+a:hover {
+	background: #567;
+	color: #fafafa;
+	text-decoration: none;
+}
